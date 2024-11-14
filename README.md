@@ -1,4 +1,4 @@
-UniTie-Matrimony Website
+UniTie-Matrimony Website : 
 A comprehensive social media matrimony website using MERN stack, aiming to provide users with a holistic platform beyond traditional matchmaking. 
 •	The website encourages users to stay engaged by incorporating features like games, trip bookings, and a robust social networking experience.
 •	Users can create detailed matrimony profiles with personal information, preferences, and photos.
