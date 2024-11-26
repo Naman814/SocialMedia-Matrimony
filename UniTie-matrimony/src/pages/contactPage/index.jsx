@@ -13,7 +13,7 @@ const ContactUs = () => {
   const handleClick = async () => {
     if (fullName && mobNo && query) {
       const response = await fetch(
-        "https://matrimony-backend.onrender.com/contactus",
+        "http://localhost:3001/contactus",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

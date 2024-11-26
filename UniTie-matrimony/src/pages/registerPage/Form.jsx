@@ -30,7 +30,7 @@ const registerSchema = yup.object().shape({
    ).required('Required'),
   location: yup.string().required("required"),
   occupation: yup.string().required("required"),
-  picture: yup.string().required("required"),
+  picture: yup.string(),
 });
 
 
@@ -64,7 +64,7 @@ const  Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://matrimony-backend.onrender.com/auth/register",
+      "http://localhost:3001/auth/register",
       {
         method: "POST",
         body: formData,

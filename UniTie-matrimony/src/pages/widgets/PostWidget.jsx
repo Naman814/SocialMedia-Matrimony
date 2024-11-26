@@ -56,7 +56,7 @@ const PostWidget = ({
   const patchLike = async () => {
     try {
       const response = await fetch(
-        `https://matrimony-backend.onrender.com/posts/${postId}/like`,
+        `http://localhost:3001/posts/${postId}/like`,
         {
           method: "PATCH",
           headers: {
@@ -76,7 +76,7 @@ const PostWidget = ({
   const patchComment = async (text, loggedInUserName) => {
     try {
       const response = await fetch(
-        `https://matrimony-backend.onrender.com/posts/${postId}/comment`,
+        `http://localhost:3001/posts/${postId}/comment`,
         {
           method: "PATCH",
           headers: {
@@ -101,7 +101,7 @@ const PostWidget = ({
   const handleDelete = async () => {
     try {
       const response = await fetch(
-        `https://matrimony-backend.onrender.com/posts/${postId}/delete`,
+        `http://localhost:3001/posts/${postId}/delete`,
         {
           method: "DELETE",
           headers: {
@@ -148,7 +148,7 @@ const PostWidget = ({
           height="auto"
           alt="post"
           style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-          src={`https://matrimony-backend.onrender.com/assets/${picturePath}`}
+          src={`http://localhost:3001/assets/${picturePath}`}
         />
       )}
       <FlexBetween mt="0.25rem">

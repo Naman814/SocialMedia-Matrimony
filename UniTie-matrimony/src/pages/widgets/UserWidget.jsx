@@ -26,7 +26,7 @@ const UserWidget = ({ userId, picturePath }) => {
   const paramsCheck = useParams();
 
   const getUser = async () => {
-    const response = await fetch(`https://matrimony-backend.onrender.com/users/${userId}`, {
+    const response = await fetch(`http://localhost:3001/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });

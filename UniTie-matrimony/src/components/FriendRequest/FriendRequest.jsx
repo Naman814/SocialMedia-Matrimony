@@ -18,7 +18,7 @@ const FriendRequest = () => {
       // console.log(user)
         try{
         const response = await fetch(
-          `https://matrimony-backend.onrender.com/users/${userId}/friendrequests`,
+          `http://localhost:3001/users/${userId}/friendrequests`,
           {
             method: "GET",
             headers: {

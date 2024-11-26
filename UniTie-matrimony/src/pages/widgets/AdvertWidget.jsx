@@ -19,7 +19,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="https://matrimony-backend.onrender.com/assets/ad4.jpg"
+        src="http://localhost:3001/assets/ad4.jpg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
@@ -36,7 +36,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="ad1"
-        src="https://matrimony-backend.onrender.com/assets/ad1.jpg"
+        src="http://localhost:3001/assets/ad1.jpg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
 
@@ -53,7 +53,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="https://matrimony-backend.onrender.com/assets/ad2.jpg"
+        src="http://localhost:3001/assets/ad2.jpg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
 
@@ -70,7 +70,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="https://matrimony-backend.onrender.com/assets/ad3.jpg"
+        src="http://localhost:3001/assets/ad3.jpg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
 

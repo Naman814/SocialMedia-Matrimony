@@ -62,7 +62,7 @@ const Form = () => {
 
   try {
       const loggedInResponse = await fetch(
-        "https://matrimony-backend.onrender.com/auth/login",
+        "http://localhost:3001/auth/login",
         {
           method: "POST",
 
@@ -123,7 +123,9 @@ const Form = () => {
     const password = googleUser.password;
 
     const loggedInResponse = await fetch(
-      "https://matrimony-backend.onrender.com/auth/login",
+      // "https://matrimony-backend.onrender.com/auth/login"
+      "http://localhost:3001/auth/login"
+      ,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -143,7 +145,7 @@ const Form = () => {
       );
     } else {
       const googleLogged = await fetch(
-        "https://matrimony-backend.onrender.com/auth/register",
+        "http://localhost:3001/auth/register",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

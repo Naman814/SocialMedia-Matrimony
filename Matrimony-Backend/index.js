@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 
 app.use(
   cors({
-    origin: "https://unitie-matrimony.vercel.app",
+    origin: "http://localhost:3000",
     methods: "GET,POST,PUT,DELETE,PATCH",
     credentials: true,
   })
@@ -41,6 +41,7 @@ app.use(
 app.use(cors({ origin: true }));
 
 app.use("/assets", express.static(path.join(__dirname, "public/assets")));
+
 
 // File storage
 const storage = multer.diskStorage({
@@ -75,6 +76,6 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
+    app.listen(PORT, () => console.log(`Server Port : ${PORT}`));
   })
   .catch((error) => console.log(`${error} did not connect`));

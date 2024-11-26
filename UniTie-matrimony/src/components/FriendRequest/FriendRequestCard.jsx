@@ -22,7 +22,7 @@ const FriendRequestCard = ({ friendId, name, subtitle, userPicturePath }) => {
   const removeRequest = async () => {
     try{
       const response = await fetch(
-        `https://matrimony-backend.onrender.com/users/${_id}/${friendId}/removerequest`,
+        `http://localhost:3001/users/${_id}/${friendId}/removerequest`,
         {
           method: "POST",
           headers: {
@@ -43,7 +43,7 @@ const FriendRequestCard = ({ friendId, name, subtitle, userPicturePath }) => {
   const handleRequest = async () => {
     try{
     const response = await fetch(
-      `https://matrimony-backend.onrender.com/users/${_id}/${friendId}`,
+      `http://localhost:3001/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {

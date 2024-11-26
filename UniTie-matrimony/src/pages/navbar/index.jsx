@@ -59,7 +59,7 @@ const Navbar = () => {
 
   const handleSearch = (query) => {
     setQuery(query);
-    fetch("https://matrimony-backend.onrender.com/users/search-users", {
+    fetch("http://localhost:3001/users/search-users", {
       method: "post",
       headers: {
         "content-Type": "application/json",

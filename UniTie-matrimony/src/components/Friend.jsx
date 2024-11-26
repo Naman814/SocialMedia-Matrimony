@@ -48,7 +48,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const sendFriendRequests = async() => {
     try{
       const response = await fetch(
-        `https://matrimony-backend.onrender.com/users/${_id}/${friendId}/friendrequests`,
+        `http://localhost:3001/users/${_id}/${friendId}/friendrequests`,
         {
           method: "post",
           headers: {
@@ -68,7 +68,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const handleRequest = async () => {
     try{
     const response = await fetch(
-      `https://matrimony-backend.onrender.com/users/${_id}/${friendId}`,
+      `http://localhost:3001/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
@@ -134,7 +134,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
         onClick={handlePopUp}
         sx={{ backgroundColor: primaryLight, p: "0.6rem" }}
       >
-          <PersonAddOutlined sx={{ color: primaryDark }} />
+          <PersonAddOutlined sx={{ color: primaryDark }} /> 
           </IconButton>
         )}
       {/* </IconButton> */}

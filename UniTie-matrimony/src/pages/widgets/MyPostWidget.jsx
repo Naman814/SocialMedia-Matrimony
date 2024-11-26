@@ -42,7 +42,7 @@ const MyPostWidget = ({ picturePath }) => {
       formData.append("picturePath", image.name);
     }
 
-    const response = await fetch(`https://matrimony-backend.onrender.com/posts`, {
+    const response = await fetch(`http://localhost:3001/posts`, {
       method: "POST",
       headers: { Authorization: `Bearer ${token}` },
       body: formData,
@@ -58,7 +58,7 @@ const MyPostWidget = ({ picturePath }) => {
       <FlexBetween gap="1.5rem">
         <UserImage
           image={
-            picturePath.startsWith("https") ? "defaultProfile.png" : picturePath
+            picturePath.startsWith("http") ? "defaultProfile.png" : picturePath
           }
         />
         <InputBase

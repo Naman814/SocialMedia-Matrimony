@@ -216,7 +216,7 @@ function CompleteProfile() {
       const configuration = {
         method: "put",
 
-        url: "https://matrimony-backend.onrender.com/auth/completeprofile",
+        url: "http://localhost:3001/auth/completeprofile",
 
         data: user,
       };
