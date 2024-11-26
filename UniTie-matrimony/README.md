@@ -1,14 +1,34 @@
 # UniTie Matrimony Social Media App
 
-UniTie is a matrimony social media app built with the MERN (MongoDB, Express, React, Node.js) stack. Users can create an account, fill out a profile, browse other profiles, and communicate with potential matches. 
+UniTie is a comprehensive social media matrimony website built using the MERN stack (MongoDB, Express.js, React.js, Node.js), designed to provide users with a holistic platform that goes beyond traditional matchmaking. The website integrates social media features with matrimony services, allowing users to connect, interact, and plan their future with various tools and features. 
 
 ## Features
 
 - User authentication and authorization with Google OAuth 2.0.
 - User profile creation and editing.
-- Search for potential matches based on various criteria such as age, location, and interests.
+- All Social Media features: Post, Comment, Like, Delete, Send Friend Request.
 - Real-time chat feature to communicate with matches.
 - Responsive UI for seamless use on both desktop and mobile devices.
+
+## Snapshots
+
+- Main Page
+![MainPage](../ProjectSnapshots/MainPage.png)
+- Home Page
+![HomePage](../ProjectSnapshots/HomePage.png)
+- Like Comment 
+![LikeComment](../ProjectSnapshots/LikeComment.png)
+- Search Feature
+![Search](../ProjectSnapshots/Search.png)
+- SendFriendRequest 
+![FS](../ProjectSnapshots/SendFriendRequest.png)
+- Accept/Reject FriendRequest
+![FS](../ProjectSnapshots/AcceptRejectFS.png)
+- Dark Mode
+![DarkMode](../ProjectSnapshots/DarkMode.png)
+- Payment Gateway for subscriptions
+![Payment](../ProjectSnapshots/PaymentGateway.png)
+
 
 ## Installation
 
@@ -48,7 +68,7 @@ If you want to contribute to UniTie, please follow these steps:
 
 ## Credits
 
-This app was built by TEAM 3 - GEN CHALLENGERS (HYDERABAD). Special thanks to [List any contributors or resources used].
+This app was built by Naman.
 
 ## License
 
@@ -56,4 +76,4 @@ This app was built by TEAM 3 - GEN CHALLENGERS (HYDERABAD). Special thanks to [L
 
 ## Contact
 
-If you have any questions or concerns about UniTie, please contact us at unitiematrimony@gmail.com.
+If you have any questions or concerns about UniTie, please contact us at namanvijay814@gmail.com.

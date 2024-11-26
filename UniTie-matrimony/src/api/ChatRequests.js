@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({ baseURL: 'https://matrimony-backend.onrender.com' });
+const API = axios.create({ baseURL: 'http://localhost:3001' });
 
 export const createChat = (data) => API.post('/chat/', data);
 
