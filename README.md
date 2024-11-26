@@ -14,25 +14,25 @@ UniTie is a comprehensive social media matrimony website built using the MERN st
 
 - Main Page <br>
 ![MainPage](./ProjectSnapshots/MainPage.png)
-<br>
+
 - Home Page <br>
 ![HomePage](./ProjectSnapshots/HomePage.png)
-<br>
+
 - Like Comment <br>
 ![LikeComment](./ProjectSnapshots/LikeComment.png)
-<br>
+
 - Search Feature <br>
 ![Search](./ProjectSnapshots/Search.png)
-<br>
+
 - SendFriendRequest <br>
 ![FS](./ProjectSnapshots/SendFriendRequest.png)
-<br>
+
 - Accept/Reject FriendRequest <br>
 ![FS](./ProjectSnapshots/AcceptRejectFS.png)
-<br>
+
 - Dark Mode <br>
 ![DarkMode](./ProjectSnapshots/DarkMode.png)
-<br>
+
 - Payment Gateway for subscriptions <br>
 ![Payment](./ProjectSnapshots/PaymentGateway.png)
 
